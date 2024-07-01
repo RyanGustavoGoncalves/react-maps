@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import { Button } from './components/ui/button'
+import React from 'react';
+import MapComponent from './global/components/MapComponent/MapComponent';
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <>
-     <Button>Hello World</Button>
-    </>
-  )
-}
+    <div>
+      <MapComponent />
+    </div>
+  );
+};
 
-export default App
+export default App;
